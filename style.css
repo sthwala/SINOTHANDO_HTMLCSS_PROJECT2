@@ -36,12 +36,6 @@ body {
     display: flex;
 }
 
-.inline{
-    display: flex;
-    text-decoration: none;
-}
-
-
 .slogan{
     text-align: center;
     top: 100px;
