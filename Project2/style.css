@@ -1,0 +1,147 @@
+.hero {
+    background-image: url(/IMAGES/hero.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 1000px;
+   
+}
+
+.button{
+    border-color: black;
+    position: absolute;
+    top: 20px;
+    right: 16px;
+    font-size: 18px;
+    opacity: 0.6;
+}
+
+.header{
+    text-align: center;
+    font-size: 112px;
+}
+
+.link{
+    text-align: center;
+    position: center;
+    vertical-align: top;
+    font-size: 24px;
+}
+
+.DZ{
+    display: flex;
+}
+
+.inline{
+    display: flex;
+    text-decoration: none;
+}
+
+
+.slogan{
+    text-align: center;
+    top: 100px;
+
+}
+
+.section2{
+    background-color: #F8F8F8;
+    height: 1500px;
+}
+
+.articles{
+    text-align: center;
+    font-size: 32px;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.drone1{
+    position: relative;
+    left: 60px;
+    float: left;
+    width: 23%;
+    height: 400px;
+    padding: 28px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2);
+    background-color: white;
+}
+
+.row::after{
+    content:" ";
+    clear:both;
+    display: table;
+}
+
+.caption{
+    text-align: center;
+    position: center;
+    font-size: 16px;
+}
+
+.drone3{
+    display: flex;
+    float: left;
+    width: 100%;
+    padding: 28px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background-color: white;
+}
+
+.paragraph{
+    text-align: center;
+    position: relative;
+    left: 130px;
+    top: 90px;
+    font-size: 16px;
+}
+
+.newsletter{
+    text-align: center;
+    font-size: 15px;
+}
+
+.form{
+    position: absolute;
+    left: 600px;
+    height: 40px; 
+    width: 150px
+}
+
+.footer{
+    display: flex;
+}
+
+.section3{
+    background-color: white;
+    height: 100px;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 70px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+
+.fa-twitter {
+    background: #CBDEEC;
+    color: white;
+    border-radius: 50%;
+  }
+
+.fa-linkedin {
+    background: #CBDEEC;
+    color: white;
+    border-radius: 50%;
+  }
+  
+  .fa-pinterest {
+    background: #CBDEEC;
+    color: white;
+    border-radius: 50%;
+  }
